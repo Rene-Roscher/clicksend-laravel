@@ -30,7 +30,7 @@ config/services.php
 
 ## Usage
 
-### SMS Notification
+### Notification Example for SMS and Voice
 
 Simply create a new notification and use the preferred class to send a notification.
 
