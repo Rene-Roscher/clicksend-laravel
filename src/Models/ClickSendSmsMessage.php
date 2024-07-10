@@ -50,6 +50,7 @@ class ClickSendSmsMessage
                 $smsMessage->setBody($msg['message']);
                 $smsMessage->setFrom($msg['from']);
                 $smsMessage->setTo($msg['to']);
+                $smsMessage->setSchedule($msg['schedule'] ?? null);
             });
         }, $this->messages);
 
